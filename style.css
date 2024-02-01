@@ -7,6 +7,7 @@
     height: 200px;
     background-image: url("blue-background.jpg");
     background-size: cover;
+    z-index: -1;
 }
 
 *{
@@ -47,6 +48,7 @@ p i{
     margin-top: 140px;
     background-color: white;
     color: white;
+    position: relative !important;
 }
 
 .navbar ul li{
@@ -63,6 +65,15 @@ p i{
 
 #input-search{
     max-width: 300px !important;
+    position: fixed;
+    right: 150px;
+    top: 149px;
+}
+
+@media (max-width: 990px) {
+    #input-search{
+        top: 142px;
+    }
 }
 
 .form-control{
