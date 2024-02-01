@@ -52,3 +52,34 @@ p i{
 .navbar ul li{
     margin-right: 40px;
 }
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+#input-search{
+    max-width: 300px !important;
+}
+
+.form-control{
+    border: 1px solid gray !important;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    margin-top: 70px;
+    left: 40%;
+    text-transform: uppercase;
+}
